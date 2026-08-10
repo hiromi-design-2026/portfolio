@@ -559,3 +559,72 @@ body::before{
     }
 
 }
+/* =========================
+   LYKKE DETAIL PAGE
+========================= */
+
+.lykke-section {
+    width: min(92%, 1400px);
+    margin: 140px auto;
+}
+
+.lykke-section-heading {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.lykke-section-heading span {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    letter-spacing: 0.25em;
+    color: #8f9878;
+}
+
+.lykke-section-heading h2 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    font-weight: 400;
+    letter-spacing: 0.08em;
+}
+
+.lykke-section-heading p {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.lykke-section-text {
+    max-width: 760px;
+    margin: 0 auto 45px;
+}
+
+.lykke-section-text p {
+    margin: 0;
+    line-height: 1.9;
+}
+
+.lykke-section-image {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.lykke-section-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lykke-full-design {
+    margin-top: 180px;
+}
+
+.lykke-full-image {
+    width: min(72%, 900px);
+    margin: 60px auto 0;
+}
+
+.lykke-full-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
