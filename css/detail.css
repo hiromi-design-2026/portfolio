@@ -729,3 +729,68 @@ body::before{
     display: block;
     text-align: center;
 }
+/* =========================
+   LEMON POP WEB BANNER
+========================= */
+
+.lemon-banner-section {
+    width: min(90%, 1200px);
+    margin: 120px auto;
+}
+
+.lemon-banner-heading {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.lemon-banner-heading span {
+    display: block;
+    margin-bottom: 10px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.25em;
+
+    color: #1B2450;
+}
+
+.lemon-banner-heading h2 {
+    margin: 0 0 18px;
+
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 400;
+    letter-spacing: 0.08em;
+
+    color: #1B2450;
+}
+
+.lemon-banner-heading p {
+    max-width: 700px;
+    margin: 0 auto;
+
+    font-size: 0.95rem;
+    line-height: 1.9;
+}
+
+.lemon-banner-image {
+    width: 100%;
+    margin: 0 auto 40px;
+}
+
+.lemon-banner-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.lemon-banner-text {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.lemon-banner-text p {
+    margin: 0;
+
+    font-size: 0.9rem;
+    line-height: 1.9;
+}
